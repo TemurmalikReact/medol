@@ -12,7 +12,14 @@ const App = () => {
         {/* <div className="fixed right-5 bottom-5" style={{ zIndex: "1000" }}>
           <FiSettings />
         </div> */}
-        <section id="shop" className="relative bg-[url('/src/data/Blur.jpg')] bg-cover h-[109vh] fullHD:h-[85vh]">
+        <section id="shop" className="relative bg-[url('/src/data/Blur.jpg')] bg-cover 
+        h-[850px] 
+        sm:h-[1000px]
+        md:h-[108vh]
+        lg:h-[108vh]
+        xl:h-[108vh]
+        fullHD:h-[85vh]
+        ">
           <div className="absolute w-full h-full bg-[#aaaab426] z-0" />
           <div className="relative w-full h-full 
             md:py-[10px] md:px-[10px] lg:py-[10px] lg:px-[40px] xl:py-[15px] xl:px-[80px] fullHD:py-[25px] fullHD:px-[280px] z-10">

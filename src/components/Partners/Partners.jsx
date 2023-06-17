@@ -51,7 +51,7 @@ const About = () => {
           className="grid 
           lg:gap-[10px] xl:gap-[15px] 
 
-          md:grid-cols-[6fr_6fr]
+          sm:grid-cols-[6fr_6fr]
           lg:grid-cols-[3fr_3fr_3fr_3fr]
           ">
           {partners.map((partner) => (

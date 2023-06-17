@@ -20,7 +20,7 @@ const About = () => {
             lg:translate-y-[-50px] 
             mx-auto lg:mx-0
             mb-[50px] lg:mb-0
-            border-[25px] w-[350px] h-[350px] p-[12px] 
+            border-[25px] w-[300px] h-[300px] p-[12px] 
             lg:border-[25px] lg:w-[400px] lg:h-[400px] lg:p-[12px] 
             xl:border-[35px] xl:w-[500px] xl:h-[500px] xl:p-[13px] 
             fullHD:border-[40px] fullHD:w-[600px] fullHD:h-[600px] fullHD:p-[15px] 
@@ -79,7 +79,7 @@ const About = () => {
               <button
                 className="
                   text-white font-normal 
-                  bg-gradient-to-r from-[#0D4C93] to-[#00C9C9] w-fit rounded-full tracking-wide
+                  bg-gradient-to-r from-[#0D4C93] to-[#00C9C9] w-full sm:w-fit rounded-full tracking-wide
                   text-[15px] leading-[17px] py-[12px] px-[50px] mt-[20px]
                   lg:text-[15px] lg:leading-[17px] lg:py-[12px] lg:px-[50px] lg:mt-[20px]
                   xl:text-[17px] xl:leading-[20px] xl:py-[13px] xl:px-[55px] xl:mt-[30px]

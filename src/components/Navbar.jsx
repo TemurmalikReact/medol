@@ -13,13 +13,13 @@ const Navbar = () => {
     <>
       <div
         className={`
-        fixed md:hidden w-full h-full bg-[rgba(125,125,155,0.55)] transition-all duration-500 z-20
+        fixed md:hidden w-full h-full bg-[rgba(125,125,155,0.55)] transition-all duration-500 z-40
         ${open ? "translate-x-0" : "translate-x-[100%]"}`}
         onClick={() => setOpen(false)}></div>
       <div
         className={`
-        ${open ? "translate-x-0" : "translate-x-[-100%]"} z-30
-        flex md:hidden flex-col bg-white fixed h-[100vh] w-[250px]
+        ${open ? "translate-x-0" : "translate-x-[-100%]"} z-50
+        flex md:hidden flex-col bg-white fixed h-[100vh] w-[250px] overflow-y-auto
         transition-all duration-300`}>
         <div className="flex p-[15px]">
           <img className="w-[125px]" src={logo} alt="" />
@@ -30,6 +30,7 @@ const Navbar = () => {
               className={`text-[#0D4C93] font-normal text-[15px] leading-[19px] uppercase py-[12.5px]
               ${index === 0 && "active"}`}
               smooth
+              onClick={() => setOpen(false)}
               to={`#${link.path}`}>
               {link.name}
             </HashLink>

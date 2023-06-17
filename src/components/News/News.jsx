@@ -28,7 +28,7 @@ const Services = () => {
           w-[35px] h-[35px] 
           lg:w-[50px] lg:h-[50px] 
           rounded-full bg-gradient-to-b from-[#0D4C93] to-[#00C9C9]
-        absolute right-0 top-[40%] translate-x-[50%] z-10 flex items-center justify-center">
+          absolute right-0 top-[40%] translate-x-[50%] z-10 flex items-center justify-center">
           <svg
             width="11"
             height="19"
@@ -75,6 +75,9 @@ const Services = () => {
               <img
                 className=" absolute translate-y-[-50%]
                 w-[95%] rounded-[40px] p-[7px] 
+                block
+                sm:hidden
+                md:block
                 md:w-auto
                 md:h-[150px] md:rounded-[40px] md:p-[7px] 
                 lg:h-[180px] lg:rounded-[50px] lg:p-[10px] 
@@ -86,7 +89,7 @@ const Services = () => {
               />
               <span
                 className="flex items-center tracking-wide font-normal text-center text-[#0D4C93] 
-                text-[16px] leading-[17px] px-[18px] mt-[95px]
+                text-[16px] leading-[17px] px-[18px] mt-[95px] sm:mt-[50px]
                 md:text-[15px] md:leading-[17px] md:px-[18px] md:mt-[85px]
                 lg:text-[16px] lg:leading-[18px] lg:px-[20px] lg:mt-[100px]
                 xl:text-[17px] xl:leading-[20px] xl:px-[25px] xl:mt-[120px]
@@ -140,7 +143,7 @@ const Services = () => {
           ">
           <div
             className="font-normal text-[#00C9C9] 
-            text-[16px] leading-[18px] mb-[15px] mt-[15px] 
+            text-[14px] leading-[18px] mb-[15px] mt-[15px] 
             md:text-[18px] md:leading-[20px] md:mb-[45px] md:mt-[45px] 
             xl:text-[20px] xl:leading-[23px] xl:mb-[50px] xl:mt-[50px] 
             fullHD:text-[24px] fullHD:leading-[28px] fullHD:mb-[55px] fullHD:mt-[55px] 
@@ -169,7 +172,7 @@ const Services = () => {
           </div>
           <div
           className="font-normal text-[#0D4C93] 
-          text-[16px] leading-[18px] mb-[15px] mt-[15px] 
+          text-[14px] leading-[18px] mb-[15px] mt-[15px] 
           md:text-[18px] md:leading-[20px] md:mb-[45px] md:mt-[45px] 
           xl:text-[20px] xl:leading-[23px] xl:mb-[50px] xl:mt-[50px] 
           fullHD:text-[24px] fullHD:leading-[28px] fullHD:mb-[55px] fullHD:mt-[55px] 

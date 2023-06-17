@@ -33,7 +33,7 @@ const Production = () => {
         </div>
         <div
           className="font-normal text-[#0D4C93] 
-          text-[16px] leading-[18px] mb-[42px] mt-[42px] 
+          text-[14px] leading-[18px] mb-[42px] mt-[42px] 
           md:text-[18px] md:leading-[20px] md:mb-[45px] md:mt-[45px] 
           xl:text-[20px] xl:leading-[23px] xl:mb-[50px] xl:mt-[50px] 
           fullHD:text-[24px] fullHD:leading-[28px] fullHD:mb-[55px] fullHD:mt-[55px] 
